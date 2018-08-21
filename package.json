@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jsoulet/estcequecestbientotlatournante/issues"
   },
-  "homepage": "https://github.com/jsoulet/estcequecestbientotlatournante#readme"
+  "homepage": "https://github.com/jsoulet/estcequecestbientotlatournante#readme",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "serve-static": "^1.13.2"
+  }
 }
