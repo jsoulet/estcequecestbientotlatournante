@@ -14,8 +14,8 @@ const getMessage = (today) => {
   		return `OUI \o/`;
   	}
 
-  	if(hours === 17  && minutes >= 0 && minutes >= 15 ) {
-  		return 'C\'est la tournante de 17h !' ;
+  	if(hours === 17  && minutes >= 0 && minutes <= 15 ) {
+  		return 'C\'est la tournante de 5h !' ;
   	}
 
   	if((hours === 11 || hours === 17 ) && minutes >= 45) {
