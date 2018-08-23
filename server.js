@@ -10,6 +10,12 @@ const today = parisTokenize(new Date());
 const getMessage = (today) => {
   	const hours = today.getHours();
   	const minutes = today.getMinutes();
+  	const day = today.getDay();
+  	
+  	if([0, 6].indexOf(day) >= 0) {
+  		return 'Pas le weekend voyons...';
+  	}
+
   	if((hours >= 12 && hours < 14) || hours >= 18) {
   		return `OUI \o/`;
   	}
