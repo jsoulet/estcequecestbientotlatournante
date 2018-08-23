@@ -8,7 +8,7 @@ const GIPHY_URL = {
 };
 
 const getGif = () => new Promise((resolve, reject) => {
-	const GIPHY_API_KEY = process.env.GIPHY_API_KEY || 'aRaI0OP6k4eIT4nMeeJC16kBGujAkCI1';
+	const GIPHY_API_KEY = process.env.GIPHY_API_KEY;
 	if(!GIPHY_API_KEY) {
 		reject('Error: No GIPHY_API_KEY');
 	}
